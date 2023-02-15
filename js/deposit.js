@@ -28,5 +28,5 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     balanceTotalElement.innerText = courrentBalanceTotal;
 
     // step-7: clear the deposit field
-    depositField.value = ''
+    dopositeField.value = '';
 })
