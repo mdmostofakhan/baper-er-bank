@@ -14,11 +14,11 @@ document.getElementById('btn-submit').addEventListener('click', function () {
         
     // DANGER: SO NOT VERIFY email password onthe client side
     // stop-4: verify email and password and chek whether valid user or not
-    if (email === 'sontan@gmail' && password === 'secret') {
-        console.log('valid usre')
+    if (email === 'sontan@gmail.com' && password === 'secret') {
+        window.location.href = 'bank.html';
     }
     else {
-        console.log('invalid user')
+        alert('Tui password vhule gechos !! ami tke tejjo puttoh korlam');
     }
 
 })
