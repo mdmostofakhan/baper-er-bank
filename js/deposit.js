@@ -30,3 +30,28 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     // step-7: clear the deposit field
     dopositeField.value = '';
 })
+
+
+
+// document.getElementById('btn-deposit').addEventListener('click', function () {
+    
+//     const depositField = document.getElementById('deposit-field');
+//     const depositFieldAmountString = depositField.value;
+//     const depositFieldAmount = parseFloat(depositFieldAmountString);
+
+//     const depostiFieldElement = document.getElementById('doposit-total');
+//     const neWDepositTotalString = depostiFieldElement.innerText;
+//     const newDopositeAmout = parseFloat(neWDepositTotalString);
+
+//     const dopositTotalAmount = newDopositeAmout + depositFieldAmount;
+//     depostiFieldElement.innerText = dopositTotalAmount;
+
+//     const balanceTotalElement = document.getElementById('balance-total');
+//     const balanceTotalAmountString = balanceTotalElement.innerHTML;
+//     const previousBalanceTotal = parseFloat(balanceTotalAmountString);
+
+//     const previousBalanceAmount = previousBalanceTotal + depositFieldAmount;
+//     balanceTotalElement.innerText = previousBalanceAmount;
+
+//     depositField.value = '';
+// })

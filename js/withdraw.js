@@ -27,7 +27,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     const previousWithrawTotalString = withdrawTotalElement.innerText;
     const previousWithrawTotal = parseFloat(previousWithrawTotalString);
    
-        // step-4 
+        // step-4
     const currentWithdrawTotal = previousWithrawTotal + newWithdrawAmount;
     withdrawTotalElement.innerText = currentWithdrawTotal;
     
@@ -45,3 +45,28 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
      withdrawField.value = ''
    ;
 })
+
+
+
+// document.getElementById('btn-withdraw').addEventListener('click', function () {
+    
+//     const withdrawField = document.getElementById('withdrae-field');
+//     const withdrawTotalAmountString = withdrawField.value;
+//     const withdrawTotalAmount = parseFloat(withdrawTotalAmountString);
+    
+//     const withdrawTotalElement = document.getElementById('withdraw-total');
+//     const withdrawTotalElementString = withdrawTotalElement.innerText;
+//     const withdrawTotalElementAmount = parseFloat(withdrawTotalElementString);
+   
+//     const withdrawCurrentAmount =  withdrawTotalElementAmount + withdrawTotalAmount 
+//     withdrawTotalElement.innerText = withdrawCurrentAmount;
+
+//     const balanceTotalElement = document.getElementById('balance-total');
+//     const previousBalanceTotalString = balanceTotalElement.innerText;
+//     const previousBalanceTotal = parseFloat(previousBalanceTotalString);
+
+//     const totalBalanceAmount = previousBalanceTotal - withdrawTotalAmount;
+//     balanceTotalElement.innerText = totalBalanceAmount;
+
+//     withdrawField.value = '';
+// })
